@@ -4,6 +4,7 @@ import Form from './Form'
 import Counter from './Counter'
 import Multiplier from './Multiplier'
 import Divider from './Divider'
+import FaceTime from './FaceTime'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>React Events</h1>
       <Multiplier />
       <Divider />
+      <FaceTime />
     </>
   )
 }
