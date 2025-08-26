@@ -3,13 +3,14 @@ import Clicker from './Clicker'
 import Form from './Form'
 import Counter from './Counter'
 import Multiplier from './Multiplier'
+import Divider from './Divider'
 
 function App() {
-
   return (
     <>
       <h1>React Events</h1>
       <Multiplier />
+      <Divider />
     </>
   )
 }

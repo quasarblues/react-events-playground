@@ -4,7 +4,8 @@ export default function Multiplier() {
     const [product, setProduct] = useState(1);
     return (
         <div>
-            <h2>{product}</h2>
+            <h2>Multiplier</h2>
+            <h3>{product}</h3>
             <button onClick={() => {
                 setProduct(product * 1.5)
             }}>X 1.5</button>
