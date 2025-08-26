@@ -6,12 +6,12 @@ import Multiplier from './Multiplier'
 import Divider from './Divider'
 import FaceTime from './FaceTime'
 import Calculator from './Calculator'
+import CubeGrid from './CubeGrid'
 
 function App() {
   return (
     <>
-      <h1>React Events</h1>
-      <Calculator />
+      <CubeGrid />
     </>
   )
 }
